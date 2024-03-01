@@ -5,8 +5,6 @@ public class Library {
     private List<Book> libraryBooks = new ArrayList<>();
     private List<Book> rentedBooks = new ArrayList<>();
 
-    // Остальные методы...
-
     // Геттер для списка книг в библиотеке
     public List<Book> getLibraryBooks() {
         return libraryBooks;
@@ -27,5 +25,5 @@ public class Library {
         return rentedBooks;
     }
 
-    // Сеттеры, если необходимы...
+
 }
